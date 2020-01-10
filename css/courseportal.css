@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Boogaloo|Public+Sans&display=swap'); 
+body {
+    font-size: 18px;
+    line-height: 1.25;
+    font-family: "Public Sans", "sans-serif";
+}
+header, nav, main, footer{
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+header, footer{
+    background-color:#2b4570;
+    border: 1px solid #2b4570;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    font-family: "Public Sans", "sans-serif";
+}
+footer a{
+    color:white;
+}
+img{
+    width: 150px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+h1{
+    font-family: "Boogaloo", "Times New Roman", "Serif";
+    font: 4em;
+}
+#lastmodified{
+    color: #8af3ff;
+}
+hr{
+    border: 1px solid #2b4570;
+}
