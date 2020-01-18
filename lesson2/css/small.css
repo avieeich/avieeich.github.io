@@ -4,15 +4,16 @@ section{
     border: grey 1px solid;
     border-radius: 10px;
     width: 80%;
-    padding: 1em;
+    padding: 1.5em;
     font-family:"Exo", sans-serif;
     margin: 2em;
 }
-header{
+header, footer{
     background-color: #a64253;
     color: white;
     padding: 2em;
     text-align: center;
+    font-family: "exo", sans-serif;
 }
 h1{
     font-family: "Righteous", sans-serif;
@@ -25,13 +26,14 @@ h3{
     border: #a64253 1px solid;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    margin: -16px;
+    margin: -26px;
     padding: 1em;
     color: white;
     font-family: "Righteous", sans-serif;
     font-size: 1.5rem;
 }
 h4{
+    margin-top: 2em;
     font-size: 1.25em;
 }
 img{
