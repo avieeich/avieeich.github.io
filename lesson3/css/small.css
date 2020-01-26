@@ -1,0 +1,101 @@
+/*
+Colors:
+Orange: #e0995e
+Dark Blue: #4f5d73
+Light Grey: #d7dedc
+Near Black: #3d2b3d
+Dark Grey: #635d5c
+
+Fonts:
+'Amita'
+'Amiko'
+*/
+body{
+    background-color:#4f5d73;
+    color: #3d2b3d;
+    font-family: 'amiko', sans-serif;
+}
+h1{ font-family: 'amita', serif;}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 9px;
+    font-family: 'amita', serif;
+    color:white;
+    background-color: #635d5c;
+    padding: 1em; 
+}
+header h1{margin: 1em;}
+
+nav {
+	background-color: #3d2b3d;
+    text-align: center; 
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li a {
+	display: block;
+	color: #d7dedc;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: #e0995e;
+    color: #3d2b3d;
+}
+
+main{
+    background-color: #d7dedc;
+    padding: 1.5em;
+}
+footer{
+    background-color: #3d2b3d;
+    text-align: center; 
+    color:#d7dedc;
+    padding: 1em;
+}
+table, th, td{
+    border: 2px solid #3d2b3d;
+    padding: .5em;
+}
+div{
+    overflow-x:scroll;
+}
+@media only screen and (min-width:680px){
+    div{
+        overflow: hidden;
+    }
+}
+@media only screen and (min-width: 37.5em){
+		nav ul { display: flex; }
+        nav ul li { flex: 1 1 100%; }
+        header {
+            display:flex;
+        }
+        
+}
+/*typography table*/
+#header{
+    font-family: 'amita', serif;
+    color:white;
+    background-color: #635d5c; 
+}
+#nav{
+    background-color: #3d2b3d;
+    text-align: center; 
+    color: #d7dedc;
+}
+#navh{
+    background-color:#e0995e;
+    text-align: center; 
+    color:#3d2b3d;
+}
+#foot{
+    background-color: #3d2b3d;
+    color: #d7dedc;
+}
