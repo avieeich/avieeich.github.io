@@ -1,0 +1,106 @@
+/*
+Colors:
+Orange: #e0995e
+Dark Blue: #4f5d73
+Light Grey: #d7dedc
+Near Black: #3d2b3d
+Dark Grey: #635d5c
+
+Fonts:
+'Amita'
+'Amiko'
+*/
+body{
+    background-color:#4f5d73;
+    color: #3d2b3d;
+    font-family: 'amiko', sans-serif;
+}
+h1{ font-family: 'amita', serif;}
+header{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    color:white;
+    background-color: #635d5c;
+    padding: 1em; 
+}
+header p{
+    grid-column: 1/3;
+    text-align: center;
+    font-style: italic;
+}
+header img{
+    width: 6em;
+    border:5px solid #e0995e ;
+    border-radius: 50%;
+}
+header h1{
+    margin: 1em;
+    font-size: 1.75rem;
+}
+
+nav {
+	background-color: #3d2b3d;
+    text-align: center; 
+    margin: 0 auto;
+}
+.navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #d7dedc;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: #e0995e;
+    color: #3d2b3d;
+    font-weight: 700;
+}
+.responsive li {
+	display: block;
+}
+
+section, article{
+    padding: 1.5em;
+    margin: 2em 0 0 0;
+}
+.contact, .summary{
+    background-color: #635d5c;
+    color: #d7dedc;
+}
+.forecast{
+    display: none;
+}
+article, .forecast{
+    background-color: #d7dedc;
+    color: #3d2b3d;
+}
+.town {
+    text-align: center;
+    color: #d7dedc;
+}
+main{
+    display:block;
+    padding: 1em;
+}
+
+footer{
+    background-color: #3d2b3d;
+    text-align: center; 
+    color:#d7dedc;
+    padding: 1em;
+}
+footer a{
+    color:#d7dedc;
+}
