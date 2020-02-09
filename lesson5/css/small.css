@@ -99,7 +99,7 @@ section, article{
     position: absolute;
     bottom:2em;
     left: 1em;
-    background: radial-gradient(#eee, #635d5c);
+    background: radial-gradient(#eee, #bfbfbf);
     border: 1px solid #4f5d73;
     box-shadow: 0 0 30px;
     display: grid;
