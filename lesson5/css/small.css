@@ -103,7 +103,7 @@ section, article{
     border: 1px solid #4f5d73;
     box-shadow: 0 0 30px;
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: 1fr 1fr;
     grid-gap: .5em;
     max-width: 30%;
     line-height: .5em;
