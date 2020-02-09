@@ -111,7 +111,9 @@
         border: 3px solid #3d2b3d;
     }
     .map{
-        display: inline;
+        display: block;
+        width: 50%;
+        height: 50%;
     }
     .contact{
         display: flex;
