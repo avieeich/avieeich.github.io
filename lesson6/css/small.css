@@ -97,14 +97,14 @@ section, article{
 }
 .summary{
     display: block;
-    background: radial-gradient(#eee, #bfbfbf);
+    background-color: #d7dedc;
     border: 1px solid #4f5d73;
     box-shadow: 0 0 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: .5em;
     font-size: .75rem;
-    color: #000000;
+    color: #3d2b3d;
 }
 .summary h3{
     grid-column:1/3;
