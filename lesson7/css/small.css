@@ -101,6 +101,7 @@ main h1{
     justify-items: center;
     background-color: #d7dedc;
     padding: 20px;
+    box-shadow: 0 0 20px #333;
 }
 .gallery img{
     width: 200px;
@@ -109,4 +110,6 @@ main h1{
     margin-bottom: 20px;
     box-shadow: 0 0 10px #333;
 }
-.gallery img:hover {box-shadow: 0 0 60px #000;}
+.galimg p{
+    display: none;
+}
