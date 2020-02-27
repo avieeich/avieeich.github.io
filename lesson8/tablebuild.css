@@ -1,0 +1,32 @@
+table{
+    font-family: 'ubuntu', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #e7f0ed;
+}
+table, th, td {
+    border: 1px solid #c8d0ca;
+    border-collapse: collapse;
+    padding: 10px 20px 10px 20px;
+  }
+thead, tfoot{
+    background-color: #7fb9c2;
+}
+thead{
+    font-size: 2em;
+    font-weight: bold;
+}
+th, .goal{
+    background-color: #628ca6;
+    color: white;
+}
+tfoot{
+    font-size: .75em;
+}
+tbody tr:nth-child(even) {
+    background-color: #e7ffed;
+  }
+span{
+
+}
