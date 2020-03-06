@@ -5,6 +5,8 @@ body {
 }
 h1, h2{
     font-family: "boogaloo", "serif";
+    color: #2b4570;
+    text-align: center;
 }
 h1{
     font-size: 3.5rem;
@@ -23,9 +25,12 @@ footer {
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    background-color: lightgrey;
+    box-shadow: 0 0 30px;
 }
 section {
     background-color: #b7d5d4;
+    border: 1.5px solid #2b4570;
     margin: 20px;
     padding: 10px;
     text-align: center;
@@ -34,6 +39,7 @@ section {
 img{
     width: 80%;
     max-width: 250px;
+    box-shadow: 0 0 10px;
 }
 
 

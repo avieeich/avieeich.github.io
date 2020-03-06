@@ -14,12 +14,12 @@ h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
 card.appendChild(h2);
 document.querySelector('div.cards').appendChild(card);
 
-let h3 = document.createElement('h3');
-h3.textContent = 'Date of birth: ' + prophets[i].birthdate;
-card.appendChild(h3);
+let birthdate = document.createElement('p');
+birthdate.textContent = 'Date of birth: ' + prophets[i].birthdate;
+card.appendChild(birthdate);
 document.querySelector('div.cards').appendChild(card);
 
-let h4 = document.createElement('h4');
+let h4 = document.createElement('p');
 h4.textContent = 'Place of birth: ' + prophets[i].birthplace;
 card.appendChild(h4);
 document.querySelector('div.cards').appendChild(card);
