@@ -1,0 +1,39 @@
+body {
+    font-size: 18px;
+    line-height: 1.25;
+    font-family: "Public Sans", "sans-serif";
+}
+h1, h2{
+    font-family: "boogaloo", "serif";
+}
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 2.75rem;
+}
+footer {
+    background-color: #2b4570;
+    border: 1px solid #2b4570;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: "Public Sans", "sans-serif";
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+section {
+    background-color: #b7d5d4;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    
+}
+img{
+    width: 80%;
+    max-width: 250px;
+}
+
+
