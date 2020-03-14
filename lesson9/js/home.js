@@ -11,33 +11,33 @@ fetch(requestURL)
 
 //Fish Haven
 let h2 = document.createElement('h2');
-h2.textContent = towns[1].name + ' ';
+h2.textContent = towns[2].name + ' ';
 card.appendChild(h2);
 document.querySelector('div.cards').appendChild(card);
 
 let motto = document.createElement('h3');
-motto.textContent = towns[1].motto;
+motto.textContent = towns[2].motto;
 card.appendChild(motto);
 document.querySelector('div.cards').appendChild(card);
 
 let yearFounded = document.createElement('p');
-yearFounded.textContent = 'Founded: ' + towns[1].yearFounded;
+yearFounded.textContent = 'Founded: ' + towns[2].yearFounded;
 card.appendChild(yearFounded);
 document.querySelector('div.cards').appendChild(card);
 
 let currentPopulation = document.createElement('p');
-currentPopulation.textContent = 'Population: ' + towns[1].currentPopulation;
+currentPopulation.textContent = 'Population: ' + towns[2].currentPopulation;
 card.appendChild(currentPopulation);
 document.querySelector('div.cards').appendChild(card);
 
 let averageRainfall = document.createElement('p');
-averageRainfall.textContent = 'Average Rainfall: ' + towns[1].averageRainfall;
+averageRainfall.textContent = 'Average Rainfall: ' + towns[2].averageRainfall;
 card.appendChild(averageRainfall);
 document.querySelector('div.cards').appendChild(card);
 
 let image = document.createElement('img');
-image.setAttribute('src', towns[1].photo);
-image.setAttribute('alt', towns[1].name);
+image.setAttribute('src', towns[2].photo);
+image.setAttribute('alt', towns[2].name);
 card.appendChild(image);
 document.querySelector('div.cards').appendChild(card);
 
@@ -81,33 +81,33 @@ card = document.createElement('section');
 
 
 let h2F = document.createElement('h2');
-h2F.textContent = towns[4].name + ' ';
+h2F.textContent = towns[0].name + ' ';
 card.appendChild(h2F);
 document.querySelector('div.cards').appendChild(card);
 
 let mottoF = document.createElement('h3');
-mottoF.textContent = towns[4].motto;
+mottoF.textContent = towns[0].motto;
 card.appendChild(mottoF);
 document.querySelector('div.cards').appendChild(card);
 
 let yearFoundedF = document.createElement('p');
-yearFoundedF.textContent = 'Founded: ' + towns[4].yearFounded;
+yearFoundedF.textContent = 'Founded: ' + towns[0].yearFounded;
 card.appendChild(yearFoundedF);
 document.querySelector('div.cards').appendChild(card);
 
 let currentPopulationF = document.createElement('p');
-currentPopulationF.textContent = 'Population: ' + towns[4].currentPopulation;
+currentPopulationF.textContent = 'Population: ' + towns[0].currentPopulation;
 card.appendChild(currentPopulationF);
 document.querySelector('div.cards').appendChild(card);
 
 let averageRainfallF = document.createElement('p');
-averageRainfallF.textContent = 'Average Rainfall: ' + towns[4].averageRainfall;
+averageRainfallF.textContent = 'Average Rainfall: ' + towns[0].averageRainfall;
 card.appendChild(averageRainfallF);
 document.querySelector('div.cards').appendChild(card);
 
 let imageF = document.createElement('img');
-imageF.setAttribute('src', towns[4].photo);
-imageF.setAttribute('alt', towns[4].name);
+imageF.setAttribute('src', towns[0].photo);
+imageF.setAttribute('alt', towns[0].name);
 card.appendChild(imageF);
 document.querySelector('div.cards').appendChild(card);
   });
