@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Avie Eichelberger's site for Preston Idaho weather and events">
+    <link rel="shortcut icon" href="favicon(1).ico">
+    <title>Weather Scout-Preston</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/p-small.css">
+    <link rel="stylesheet" href="css/p-medium.css">
+    <link rel="stylesheet" href="css/p-large.css">
+    <link href="https://fonts.googleapis.com/css?family=Amita&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiko&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="bannerad">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <img src="images/weather-logo.png" alt="Logo">
+        <h1>Weather Scout</h1>
+        <p>Your friend through any weather</p>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu </a></li>
+            <li><a href="https://avieeich.github.io/lesson11/index.html">Home</a></li>
+            <li class="active"><a href="https://avieeich.github.io/lesson11/preston.html" >Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="https://avieeich.github.io/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://avieeich.github.io/lesson11/gallery.html">Gallery</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <h1 class="town">Preston</h1>
+        <div class="herodiv">
+            <picture>
+            <source srcset="images/preston-medium.jpg" media="(min-width:780px)">
+                <source srcset="images/preston-large.jpg" media="(min-width:1100px)">
+                <img class="heroimg" src="images/preston-small.jpg" alt="White fluffy clouds above green hills.">
+            </picture>
+            <section class="summary">
+                <h3>Weather Summary</h3>
+                <div class="category">
+                    <p> Currently:</p>
+                    <p> Temperature:</p>
+                    <p> High:</p>
+                    <p> Wind Chill:</p>
+                    <p> Humidity:</p>
+                    <p> Wind Speed:</p>
+                    
+                </div>
+                <div class="condition">
+                    <p id="currently"></p>
+                    <p><span id="temperature"></span>&#176;F</p>
+                    <p><span id="high"></span>&#176;F</p>
+                    <p><span id="windchill"></span>&#176;F</p>
+                    <p><span id="humidity"></span>%</p>
+                    <p><span id="windSpeed"></span> mph</p>
+                </div>
+            </section>
+        </div>
+        <h2>5 Day Forecast</h2>
+        <div class="forecast">
+            <div class="col">
+                <span class="day" id="day1"></span>
+                <img src="images/sunicon.png" alt="" id="icon1">
+                <span class="temp"><span id="forecast1"></span>&#176;F</span> 
+            </div>
+            <div class="col">
+                <span class="day" id="day2"></span>
+                <img src="images/sunicon.png" alt="" id="icon2">
+                <span class="temp"><span id="forecast2"></span>&#176;F</span>
+            </div>
+            <div class="col">
+                <span class="day" id="day3"></span>
+                <img src="images/sunicon.png" alt="" id="icon3">
+                <span class="temp"><span id="forecast3"></span>&#176;F</span>
+            </div>
+            <div class="col">
+                <span class="day" id="day4"></span>
+                <img src="images/sunicon.png" alt="" id="icon4">
+                <span class="temp"><span id="forecast4"></span>&#176;F</span>
+            </div>
+            <div class="col">
+                <span class="day" id="day5"></span>
+                 <img src="images/sunicon.png" alt="" id="icon5">
+                <span class="temp"><span id="forecast5"></span>&#176;F</span>
+            </div>
+        </div>
+        <article>
+            <h2>Article Title</h2>
+            <h4>by Author</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ducimus ipsa deserunt repudiandae.
+                Voluptate veniam, vitae inventore asperiores rerum facilis ipsa possimus! Rem quasi fuga nobis dolorum
+                soluta delectus tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel deleniti id ipsum
+                cumque. Cupiditate commodi officiis deleniti fugit, quas iusto magnam et blanditiis dolores. Quisquam
+                minima numquam ullam laborum id.</p>
+                <picture>
+                    <source srcset="images/fireworks.png" media="(min-width:780px)">
+                    <img src="images/fireworks-small.png" alt="Man watching Fireworks">
+                </picture>
+        </article>
+    </main>
+    <section class="contact">
+        <img class="map" src="images/prestonmap.png" alt="map">
+        <ul>
+            <li><h3>Contact Information</h3></li>
+        <li>219 Gethoutada Rd. Preston, Idaho</li>
+        <li>weatherscout@fakewebsite.com</li>
+        <li>1-234-567-8910</li>
+    </ul>
+    </section>
+    
+    <footer>
+        <p>
+            &copy;<span id="year"></span> | Avie Eichelberger | Utah | <a href="https://www.byui.edu/online">BYUI Online
+                Learning</a> | https://openweathermap.org/ 
+        </p>
+        <p><span id="currentdate"></span></p>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/responsivenav.js"></script>
+    <script src="js/saturday.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>WebFont.load({
+            google: {
+              families: [
+                 'Amita','Amiko'
+              ]
+            }
+          });</script>
+    <script src="js/forecast.js"></script>
+    <script src="js/summary.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+
+</html>

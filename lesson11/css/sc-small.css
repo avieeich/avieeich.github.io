@@ -1,0 +1,182 @@
+/*
+Colors:
+Orange: #e0995e
+Dark Blue: #4f5d73
+Light Grey: #d7dedc
+Near Black: #3d2b3d
+Dark Grey: #635d5c
+
+Fonts:
+'Amita'
+'Amiko'
+*/
+/*Font and background colors*/
+body{
+    background-color:#4f5d73;
+    color: #3d2b3d;
+    font-family: 'amiko', sans-serif;
+}
+h1{ 
+    font-family: 'amita', serif;
+color: #d7dedc;
+text-align: center;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    color:white;
+    background-color: #635d5c;
+    padding: 1em; 
+}
+header p{
+    grid-column: 1/3;
+    text-align: center;
+    font-style: italic;
+}
+header img{
+    width: 6em;
+    border:5px solid #e0995e ;
+    border-radius: 50%;
+}
+header h1{
+    margin: 1em;
+    font-size: 1.75rem;
+}
+/*Navigation*/
+nav {
+	background-color: #3d2b3d;
+    text-align: center; 
+    margin: 0 auto;
+}
+.navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #d7dedc;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+    font-size: 0.95rem;
+}
+.active{
+    text-decoration: underline #d7dedc;
+}
+nav a:hover {
+	background-color: #e0995e;
+    color: #3d2b3d;
+    font-weight: 700;
+}
+.active a:hover{
+    background-color: #4f5d73;
+    color: #d7dedc;
+}
+
+.responsive li {
+	display: block;
+}
+/*Footer*/
+footer{
+    background-color: #3d2b3d;
+    text-align: center; 
+    color:#d7dedc;
+    padding: 1em;
+}
+footer a{
+    color:#d7dedc;
+}
+/*---------FORM-------------*/
+main{
+    margin: 20px;
+    background-color: #d7dedc;
+    padding: 10px;
+    border: 1px solid #d7dedc;
+    border-radius: 10px;
+}
+form fieldset {
+    margin: 0;
+    border: 1px solid #3d2b3d;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend{
+    margin: 0 1rem;
+    padding: .5rem 2%;
+    font-size: 1.5rem;
+}
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+}
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.top input:required{
+    border-left: #9c2c13 solid 6px;
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+textarea{
+    -webkit-appearance: none;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+
+#ratingvalue {
+	margin: 0 15px;
+}
+section{
+    margin: auto auto 275px auto;
+    
+    background-color: #d7dedc;
+    padding: 10px;
+    border: 1px solid #d7dedc;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    font-size: 1.25rem;
+}
+

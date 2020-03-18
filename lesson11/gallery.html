@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Avie Eichelberger's site plan for the weather site project.">
+    <link rel="shortcut icon" href="favicon(1).ico">
+    <title>Weather Scout-Preston</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/g-small.css">
+    <link rel="stylesheet" href="css/g-medium.css">
+    <link rel="stylesheet" href="css/g-large.css">
+    <link href="https://fonts.googleapis.com/css?family=Amita&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiko&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/weather-logo.png" alt="Logo">
+        <h1>Weather Scout</h1>
+        <p>Your friend through any weather</p>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu </a></li>
+            <li><a href="https://avieeich.github.io/lesson11/index.html">Home</a></li>
+            <li><a href="https://avieeich.github.io/lesson11/preston.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="https://avieeich.github.io/lesson11/stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="https://avieeich.github.io/lesson11/gallery.html">Gallery</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <h1>Weather Gallery</h1>
+        <div class="gallery">
+            <div class="galimg"><img src='images/placeholderLong.jpg' alt='clouds above a fence' data-src='images/clouds.jpg'>
+                <p>Clouds above the fence</p>
+                </div>
+            <div class="galimg"><img src='images/placeholderLong.jpg' alt="fog surrounding road" data-src='images/fog.jpg'>
+                <p>Fog covering the highway</p>
+                </div>
+            <div class="galimg"><img src='images/placeholderLong.jpg' alt="frost covered leaf" data-src='images/frost.jpg'>
+                <p>Frost covering the ground</p>
+                </div>
+            <div class="galimg"><img src='images/placeholderLong.jpg' alt="lightning storm over field" data-src='images/lightning.jpg'>
+                <p>Thunderstorm over nearby field</p>
+                </div>
+            <div class="galimg"><img src='images/placeholderLong.jpg' alt="heavy rain falling on a street" data-src='images/rain.jpg'>
+                <p>Rain falling in town</p>
+                </div>
+            <div class="galimg"><img src='images/placeholderLong.jpg' alt="person with umbrella in the snow" data-src='images/snow.jpg'>
+                <p>Snow covered street</p>
+                </div>
+            <div class="galimg"><img src='images/placeholderLong.jpg' alt="green field during a clear sunset" data-src='images/sunset.jpg'>
+                <p>Field in the sunset</p>
+                </div>
+            <div class="galimg"><img src='images/placeholderLong.jpg' alt="plants waving in the wind" data-src='images/wind.jpg'>
+                <p>Stormy day through a field</p>
+                </div>
+            <div class="galimg"><img src='images/placeholderLong.jpg' alt="a blanket of snow covering a park"
+                data-src='images/snowPark.jpg'>
+                <p>Snow over the park</p>
+                </div>
+        </div>
+
+        <footer>
+            <p>
+                &copy;<span id="year"></span> | Avie Eichelberger | Utah | <a href="https://www.byui.edu/online">BYUI
+                    Online
+                    Learning</a>
+            </p>
+            <p><span id="currentdate"></span></p>
+        </footer>
+        <script src="js/currentdate.js"></script>
+        <script src="js/responsivenav.js"></script>
+        <script src="js/lazyload.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Amita', 'Amiko'
+                    ]
+                }
+            });
+        </script>
+    </main>
+</body>
+
+</html>

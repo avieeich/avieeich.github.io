@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Avie Eichelberger's site plan for the weather site project.">
+    <link rel="shortcut icon" href="favicon(1).ico">
+    <title>Weather Scout-Preston</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/sc-small.css">
+    <link rel="stylesheet" href="css/sc-medium.css">
+    <link rel="stylesheet" href="css/sc-large.css">
+    <link href="https://fonts.googleapis.com/css?family=Amita&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiko&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/weather-logo.png" alt="Logo">
+        <h1>Weather Scout</h1>
+        <p>Your friend through any weather</p>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu </a></li>
+            <li><a href="https://avieeich.github.io/lesson11/index.html">Home</a></li>
+            <li><a href="https://avieeich.github.io/lesson11/preston.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li class="active"><a href="https://avieeich.github.io/lesson11/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://avieeich.github.io/lesson11/gallery.html">Gallery</a></li>
+
+        </ul>
+    </nav>
+
+
+    <h1>Storm Center</h1>
+    <main>
+        <form method="get" action="thanks.html">
+            <fieldset>
+
+                <legend>Contact Information</legend>
+
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com"
+                        required></label>
+
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+
+
+                <label class="top">Zip Code* <input type="number" name="zip" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top">Storm Date <input type="date" name="stormDate"></label>
+
+                <label class="top">Storm Type <input list="stormTypes">
+                    <datalist id="stormTypes">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Tornado"></option>
+                        <option value="Blizzard"></option>
+                    </datalist>
+                </label>
+
+                <label class="sbs" for="rating">Storm Severity, 1-10: &nbsp;&nbsp;&nbsp;
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" 
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                </label>
+
+                <label class="top"> Storm Region
+                    <select name=region>
+                        <option value="" selected disabled>Select Region &#9660;</option>
+                        <option value="preston">Preston</option>
+                        <option value="sodaSprings">Soda Springs</option>
+                        <option value="fishHaven">Fish Haven</option>
+                    </select>
+                </label>
+
+                <label class="sbs"><input type="radio" name="danger" value="yes">Yes </label>
+                <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe </label>
+                <label class="sbs"><input type="radio" name="danger" value="no">No </label>
+
+                <label class="top">Additional Information or Comments<textarea></textarea></label>
+
+                <input type="submit" value="Submit This Storm" class="submitBtn">
+            </fieldset>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy;<span id="year"></span> | Avie Eichelberger | Utah | <a href="https://www.byui.edu/online">BYUI
+                Online
+                Learning</a>
+        </p>
+        <p><span id="currentdate"></span></p>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/responsivenav.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Amita', 'Amiko'
+                ]
+            }
+        });
+    </script>
+    <script>
+        function adjustRating(rating) {
+            document.getElementById("ratingvalue").innerHTML = rating;
+        }
+    </script>
+</body>
+
+</html>
