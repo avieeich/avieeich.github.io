@@ -121,7 +121,7 @@ section, article{
 .forecast{
     display: none;
 }
-article, .forecast{
+article, .forecast, #events{
     background-color: #d7dedc;
     color: #3d2b3d;
     box-shadow: 0 0 40px;
@@ -159,7 +159,13 @@ footer a{
     padding:1em 2em 1em 2em;
     text-align: center;
     display: none;
-
+}
+#events{
+    text-align: center;
+    border: 30px solid #3d2b3d;
+}
+#events h4{
+    text-emphasis: bold;
 }
 article{
     display: block;
