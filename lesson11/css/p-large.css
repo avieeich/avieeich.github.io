@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1192px){
+@media only screen and (min-width: 1500px){
 header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -32,7 +32,7 @@ main, footer, .contact{
     font-size: 1.75rem;
 }
 .summary{
-    font-size: .95rem;
+    font-size: 1rem;
     max-width: 20em;
     left: 1.5em;
 }

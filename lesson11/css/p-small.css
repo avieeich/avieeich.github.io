@@ -16,6 +16,9 @@ body{
     font-family: 'amiko', sans-serif;
 }
 h1{ font-family: 'amita', serif;}
+h2{
+    color: #d7dedc;
+}
 header{
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -104,7 +107,7 @@ section, article{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: .5em;
-    font-size: .75rem;
+    font-size: 1rem;
     color: #3d2b3d;
 }
 .summary h3{
@@ -117,6 +120,9 @@ section, article{
 }
 .condition{
     grid-column: 2/3;
+}
+main h2 {
+    display: none;
 }
 .forecast{
     display: none;
@@ -165,7 +171,10 @@ footer a{
     border: 30px solid #3d2b3d;
 }
 #events h4{
-    text-emphasis: bold;
+    font-weight: bold;
+}
+article h2{
+    color: #3d2b3d;
 }
 article{
     display: block;

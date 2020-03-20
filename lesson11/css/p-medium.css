@@ -1,4 +1,4 @@
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 900px) {
     .navigation {
         display: flex;
     }
@@ -41,8 +41,7 @@
 
     .summary {
         position: absolute;
-        font-size: .6rem;
-        bottom: 1em;
+        bottom: .7em;
         left: 1em;
     }
 
@@ -59,6 +58,11 @@
     }
     h2{
         color: #d7dedc;
+    }
+    main h2{
+        display: block;
+        text-align: center;
+        margin-top: 3em;
     }
     .forecast {
         display: flex;
