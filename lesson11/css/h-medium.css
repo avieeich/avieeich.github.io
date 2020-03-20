@@ -1,4 +1,4 @@
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 700px) {
     .navigation {
         display: flex;
     }
@@ -56,6 +56,9 @@
 
     .active {
         background-color: #4f5d73;
+    }
+    article{
+        border: 3px solid #3d2b3d;
     }
     .cards{
         padding: 2em;
