@@ -1,0 +1,50 @@
+{
+    "guides": [
+      {
+        "name": "Bob",
+        "lastname": "Tolman",
+        "certification": "Class IV",
+        "experience": "25 Years",
+        "email": "tolmanb@email.com",
+        "biography": "Bob is an expert guide and instructor, and has been running rivers with us for over 20 years!",
+        "image": ""
+      },
+      {
+        "name": "Larry",
+        "lastname": "Clarkston",
+        "certification": "Class IV",
+        "experience": "18 Years",
+        "email": "clarkstonl@email.com",
+        "biography": "Larry is an experienced raft guide, who navigates with ease, and makes sure rafters have a blast!",
+        "image": ""
+      },
+      {
+        "name": "Petunia",
+        "lastname": "Reuben",
+        "certification": "Class III",
+        "experience": "10 Years",
+        "email": "ruebenp@email.com",
+        "biography": "Petunia is an excellent raft guide, and one of the best kayakers you've ever seen!",
+        "image": ""
+      },
+      {
+        "name": "Archie",
+        "lastname": "Aspenwall",
+        "certification": "Class III",
+        "experience": "8 Years",
+        "email": "apsenwalla@email.com",
+        "biography": "Archie is a fantastic river guide, born and raised in Riggins, he knows all there is to know about the river!",
+        "image": ""
+      },
+      {
+        "name": "Laura",
+        "lastname": "Carraway",
+        "certification": "Class III",
+        "experience": "5 Years",
+        "email": "carrawayl@email.com",
+        "biography": "Laura may be our newest and youngest guide, but there's no mistaking her incredible rafting skill!",
+        "image": ""
+      }
+    ]
+  }
+  
