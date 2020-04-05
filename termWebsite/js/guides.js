@@ -1,4 +1,4 @@
-const requestURL = 'https://avieeich.github.io/termwebsite/guides.json';
+const requestURL = 'https://avieeich.github.io/termwebsite/json/guides.json';
 fetch(requestURL)
   .then(function (response) {
     return response.json();
