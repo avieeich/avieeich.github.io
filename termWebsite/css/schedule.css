@@ -137,6 +137,9 @@ main a{
     border-radius: 5px;
     border: hidden;
 }
+main a:hover{
+    background-color: #17827d;
+}
 /*form*/
 form{
     text-align: left;
@@ -184,6 +187,9 @@ textarea{
     font-size: 1.25rem;
     border-radius: 5px;
     border: hidden;
+}
+.submitBtn:hover{
+    background-color: #17827d;
 }
 
 /*footer*/

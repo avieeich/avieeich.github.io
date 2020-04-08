@@ -8,9 +8,10 @@
     <meta name="description"
         content="Website for Salmon River Adventures rafting and kayak tours. Provides contact and tour information and allows you to make reservations.">
 
-        <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
-        <link href="css/home.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
     <title>Salmon River Adventures</title>
 </head>
@@ -21,60 +22,67 @@
         <h1>Salmon River</h1>
         <h2>Adventures</h2>
     </header>
-        <nav>
+    <nav>
         <ul class="navigation">
             <li><a class="ham" href="#">&#9776; Menu </a></li>
             <li><a class="active" href="https://avieeich.github.io/termWebsite/index.html">Home</a></li>
-                <li><a  href="https://avieeich.github.io/termWebsite/adventures.html">Adventures</a></li>
-                <li><a href="https://avieeich.github.io/termWebsite/schedule.html">Schedule a Tour</a></li>
-                <li><a href="https://avieeich.github.io/termWebsite/guides.html">Guides</a></li>
-                <li><a href="https://avieeich.github.io/termWebsite/contact.html">Contact Us</a></li>
-            
+            <li><a href="https://avieeich.github.io/termWebsite/adventures.html">Adventures</a></li>
+            <li><a href="https://avieeich.github.io/termWebsite/schedule.html">Schedule a Tour</a></li>
+            <li><a href="https://avieeich.github.io/termWebsite/guides.html">Guides</a></li>
+            <li><a href="https://avieeich.github.io/termWebsite/contact.html">Contact Us</a></li>
+
         </ul>
     </nav>
-    
+
 
     <main>
         <picture id="welcomeimg">
             <source srcset="images/home/homeRaft-medium.jpg" media="(min-width:780px)">
-                <source srcset="images/home/homeRaft-large.jpg" media="(min-width:1100px)">
-                <img src="images/home/homeRaft-medium.jpg" alt="Raft going over white water rapids.">
-            </picture>
-       <div id="callToAction">  <a href="https://avieeich.github.io/termWebsite/schedule.html">Book Now!</a></div>
+            <source srcset="images/home/homeRaft-large.jpg" media="(min-width:1100px)">
+            <img src="images/home/homeRaft-medium.jpg" alt="Raft going over white water rapids.">
+        </picture>
+        <div id="callToAction"> <a href="https://avieeich.github.io/termWebsite/schedule.html">Book Now!</a></div>
 
         <article>
+            <div class="writing">
             <h2>The best of the Salmon River!</h2>
-            
-            <p>Breathtaking scenery, thrilling rafting experiences, Idaho's famous Salmon River has it all! Perfect for beginners, and seasoned river runners, Salmon River Rafting is here to make sure you have a truly unforgettable experience.</p>
+
+            <p>Breathtaking scenery, thrilling rafting experiences, Idaho's famous Salmon River has it all! Perfect for
+                beginners, and seasoned river runners, Salmon River Rafting is here to make sure you have a truly
+                unforgettable experience.</p>
+            </div>
             <picture>
                 <source srcset="images/home/kayak-large.jpg" media="(min-width:1100px)">
                 <img src="images/home/kayak-small.jpg" alt="Raft going over white water rapids.">
             </picture>
             <a href="https://avieeich.github.io/termWebsite/adventures.html">Check out our tours!</a>
-            
+
         </article>
 
         <div id="weather">
             <picture>
                 <source srcset="images/home/raftFront-medium.jpg" media="(min-width:780px)">
-                    <source srcset="images/home/raftFront-large.jpg" media="(min-width:1100px)">
-                    <img src="images/home/raftFront-medium.jpg" alt="View of the river from inside a raft.">
-                </picture>
+                <source srcset="images/home/raftFront-large.jpg" media="(min-width:1100px)">
+                <img src="images/home/raftFront-medium.jpg" alt="View of the river from inside a raft.">
+            </picture>
             <div id="conditions">
-                <h2>Weather Conditions</h2>
-                <p id="currently"></p>
-                <p><span id="temperature"></span>&#176;F</p>
-                <p><span id="high"></span>&#176;F</p>
-                <p id="windchill-p"><span id="windchill"></span>&#176;F</p>
-                <p><span id="windSpeed"></span> mph</p>
+                <div>
+                    <h2>Weather Conditions</h2>
+                    <p id="currently"></p>
+                    <p><span id="temperature"></span>&#176;F</p>
+                    <p><span id="high"></span>&#176;F</p>
+                    <p id="windchill-p"><span id="windchill"></span>&#176;F</p>
+                    <p><span id="windSpeed"></span> mph</p>
+                </div>
             </div>
         </div>
     </main>
 
     <footer>
         <p>
-            &copy;<span id="year"></span> Salmon River Adventures | Avie Eichelberger | Utah | <a href="https://www.byui.edu/online">BYUI Online
-                Learning</a> | https://openweathermap.org/ 
+            &copy;<span id="year"></span> Salmon River Adventures | Avie Eichelberger | Utah | <a
+                href="https://www.byui.edu/online">BYUI Online
+                Learning</a> | https://openweathermap.org/
         </p>
     </footer>
     <script src="js/summary.js"></script>

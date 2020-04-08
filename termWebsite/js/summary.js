@@ -1,4 +1,4 @@
-const apiURLS = 'https://api.openweathermap.org/data/2.5/weather?q=Riggins,us&units=imperial&APPID=eb2afd8bdd68cf1db8f496b787a6d403'
+const apiURLS = 'https://api.openweathermap.org/data/2.5/weather?q=Lewiston,us&units=imperial&APPID=eb2afd8bdd68cf1db8f496b787a6d403'
 
 fetch(apiURLS)
 .then((response) => response.json())

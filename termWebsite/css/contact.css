@@ -172,6 +172,9 @@ textarea{
     border-radius: 5px;
     border: hidden;
 }
+.submitBtn:hover{
+    background-color: #17827d;
+}
 /*footer*/
 
 footer {
