@@ -4,10 +4,10 @@ fetch(apiURLS)
 .then((response) => response.json())
 .then((jsObject) => {
     console.log(jsObject);
-    document.getElementById('currently').textContent = jsObject.weather[0].description;
-    document.getElementById('temperature').textContent= jsObject.main.temp;
-    document.getElementById('high').textContent= jsObject.main.temp_max;
-    document.getElementById('windSpeed').textContent= jsObject.wind.speed;
+    document.getElementById('currently').textContent = "Currently: " + jsObject.weather[0].description;
+    document.getElementById('temperature').textContent="Temp: " + jsObject.main.temp;
+    document.getElementById('high').textContent="High: " + jsObject.main.temp_max;
+    document.getElementById('windSpeed').textContent="WindSpeed: " + jsObject.wind.speed;
 
     var t = jsObject.main.temp;
 var s= jsObject.wind.speed;
@@ -16,7 +16,7 @@ var f= Math.round(35.74 + 0.6215*t-35.75*Math.pow(s,0.16)+0.4275*t*Math.pow(s,0.
 document.getElementById('windchill').innerHTML=f;
 }
 else{
-    document.getElementById('windchill').innerHTML="N/A";
+    document.getElementById('windchill-p').style.display="none";
 }
 
 });

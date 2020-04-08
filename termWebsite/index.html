@@ -10,51 +10,62 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+        <link href="css/home.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
     <title>Salmon River Adventures</title>
 </head>
 
 <body>
     <header>
-        <img src="" alt="Salmon River Adventures Logo">
-        <h1>Salmon River Adventures</h1>
+        <img src="images/logo.png" alt="Salmon River Adventures Logo">
+        <h1>Salmon River</h1>
+        <h2>Adventures</h2>
+    </header>
         <nav>
-            <ul>
-                <li><a href="https://avieeich.github.io/termWebsite/index.html">Home</a></li>
-                <li><a href="https://avieeich.github.io/termWebsite/adventures.html">Adventures</a></li>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu </a></li>
+            <li><a class="active" href="https://avieeich.github.io/termWebsite/index.html">Home</a></li>
+                <li><a  href="https://avieeich.github.io/termWebsite/adventures.html">Adventures</a></li>
                 <li><a href="https://avieeich.github.io/termWebsite/schedule.html">Schedule a Tour</a></li>
                 <li><a href="https://avieeich.github.io/termWebsite/guides.html">Guides</a></li>
                 <li><a href="https://avieeich.github.io/termWebsite/contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+            
+        </ul>
+    </nav>
+    
 
     <main>
-        <img src="" alt="River rafting">
-        <a href="https://avieeich.github.io/termWebsite/schedule.html">Book Now!</a>
+        <picture id="welcomeimg">
+            <source srcset="images/home/homeRaft-medium.jpg" media="(min-width:780px)">
+                <source srcset="images/home/homeRaft-large.jpg" media="(min-width:1100px)">
+                <img src="images/home/homeRaft-medium.jpg" alt="Raft going over white water rapids.">
+            </picture>
+       <div id="callToAction">  <a href="https://avieeich.github.io/termWebsite/schedule.html">Book Now!</a></div>
 
         <article>
             <h2>The best of the Salmon River!</h2>
+            
             <p>Breathtaking scenery, thrilling rafting experiences, Idaho's famous Salmon River has it all! Perfect for beginners, and seasoned river runners, Salmon River Rafting is here to make sure you have a truly unforgettable experience.</p>
+            <picture>
+                <source srcset="images/home/kayak-large.jpg" media="(min-width:1100px)">
+                <img src="images/home/kayak-small.jpg" alt="Raft going over white water rapids.">
+            </picture>
             <a href="https://avieeich.github.io/termWebsite/adventures.html">Check out our tours!</a>
-            <img src="" alt="">
+            
         </article>
 
         <div id="weather">
-            <img src="" alt="">
-            <div id="category">
-                <p> Currently:</p>
-                <p> Temperature:</p>
-                <p> High:</p>
-                <p> Wind Chill:</p>
-                <p> Wind Speed:</p>
-
-            </div>
+            <picture>
+                <source srcset="images/home/raftFront-medium.jpg" media="(min-width:780px)">
+                    <source srcset="images/home/raftFront-large.jpg" media="(min-width:1100px)">
+                    <img src="images/home/raftFront-medium.jpg" alt="View of the river from inside a raft.">
+                </picture>
             <div id="conditions">
+                <h2>Weather Conditions</h2>
                 <p id="currently"></p>
                 <p><span id="temperature"></span>&#176;F</p>
                 <p><span id="high"></span>&#176;F</p>
-                <p><span id="windchill"></span>&#176;F</p>
+                <p id="windchill-p"><span id="windchill"></span>&#176;F</p>
                 <p><span id="windSpeed"></span> mph</p>
             </div>
         </div>
@@ -67,6 +78,7 @@
         </p>
     </footer>
     <script src="js/summary.js"></script>
+    <script src="js/responsivenav.js"></script>
 </body>
 
 </html>

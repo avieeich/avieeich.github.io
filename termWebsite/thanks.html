@@ -11,23 +11,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
     <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/thanks.css">
     <title>Salmon River Adventures</title>
 </head>
 
 <body>
     <header>
-        <img src="" alt="Salmon River Adventures Logo">
-        <h1>Salmon River Adventures</h1>
+        <img src="images/logo.png" alt="Salmon River Adventures Logo">
+        <h1>Salmon River</h1>
+        <h2>Adventures</h2>
+    </header>
         <nav>
-            <ul>
-                <li><a href="https://avieeich.github.io/termWebsite/index.html">Home</a></li>
-                <li><a href="https://avieeich.github.io/termWebsite/adventures.html">Adventures</a></li>
-                <li><a href="https://avieeich.github.io/termWebsite/schedule.html">Schedule a Tour</a></li>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu </a></li>
+            <li><a  href="https://avieeich.github.io/termWebsite/index.html">Home</a></li>
+                <li><a  href="https://avieeich.github.io/termWebsite/adventures.html">Adventures</a></li>
+                <li><a class="active" href="https://avieeich.github.io/termWebsite/schedule.html">Schedule a Tour</a></li>
                 <li><a href="https://avieeich.github.io/termWebsite/guides.html">Guides</a></li>
                 <li><a href="https://avieeich.github.io/termWebsite/contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+            
+        </ul>
+    </nav>
 
     <main>
         <h2>Your adventure has been scheduled!</h2>
@@ -41,6 +45,7 @@
                 Learning</a>
         </p>
     </footer>
+    <script src="js/responsivenav.js"></script>
 </body>
 
 </html>

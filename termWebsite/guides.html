@@ -10,28 +10,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
     <link rel="shortcut icon" href="images/favicon.ico">
-    <title>Salmon River Adventures</title>
+    <title>Guides-Salmon River Adventures</title>
+    <link rel="stylesheet" href="css/guides.css">
 </head>
 
 <body>
     <header>
-        <img src="" alt="Salmon River Adventures Logo">
-        <h1>Salmon River Adventures</h1>
-        <nav>
-            <ul>
-                <li><a href="https://avieeich.github.io/termWebsite/index.html">Home</a></li>
-                <li><a href="https://avieeich.github.io/termWebsite/adventures.html">Adventures</a></li>
-                <li><a href="https://avieeich.github.io/termWebsite/schedule.html">Schedule a Tour</a></li>
-                <li><a href="https://avieeich.github.io/termWebsite/guides.html">Guides</a></li>
-                <li><a href="https://avieeich.github.io/termWebsite/contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <img src="images/logo.png" alt="Salmon River Adventures Logo">
+        <h1>Salmon River</h1>
+        <h2>Adventures</h2>
     </header>
+        <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu </a></li>
+            <li><a  href="https://avieeich.github.io/termWebsite/index.html">Home</a></li>
+                <li><a  href="https://avieeich.github.io/termWebsite/adventures.html">Adventures</a></li>
+                <li><a href="https://avieeich.github.io/termWebsite/schedule.html">Schedule a Tour</a></li>
+                <li><a class="active" href="https://avieeich.github.io/termWebsite/guides.html">Guides</a></li>
+                <li><a href="https://avieeich.github.io/termWebsite/contact.html">Contact Us</a></li>
+            
+        </ul>
+    </nav>
 
     <main>
         <div>
             <h2>Guides</h2>
-            <img src="" alt="">
             <p>We want to offer you the best rafting experience possible. Our expert tour guides always make sure you
                 stay safe and have a blast!</p>
 
@@ -48,6 +51,7 @@
         <p><span id="currentdate"></span></p>
     </footer>
     <script src="js/guides.js"></script>
+    <script src="js/responsivenav.js"></script>
 </body>
 
 </html>

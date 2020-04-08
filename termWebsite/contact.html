@@ -12,51 +12,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
-    <title>Salmon River Adventures</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact-Salmon River Adventures</title>
 </head>
 
 <body>
     <header>
-        <img src="" alt="Salmon River Adventures Logo">
-        <h1>Salmon River Adventures</h1>
-        <nav>
-            <ul>
-                <li><a href="https://avieeich.github.io/termWebsite/index.html">Home</a></li>
-                <li><a href="https://avieeich.github.io/termWebsite/adventures.html">Adventures</a></li>
-                <li><a href="https://avieeich.github.io/termWebsite/schedule.html">Schedule a Tour</a></li>
-                <li><a href="https://avieeich.github.io/termWebsite/guides.html">Guides</a></li>
-                <li><a href="https://avieeich.github.io/termWebsite/contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <img src="images/logo.png" alt="Salmon River Adventures Logo">
+        <h1>Salmon River</h1>
+        <h2>Adventures</h2>
     </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu </a></li>
+            <li><a href="https://avieeich.github.io/termWebsite/index.html">Home</a></li>
+            <li><a href="https://avieeich.github.io/termWebsite/adventures.html">Adventures</a></li>
+            <li><a href="https://avieeich.github.io/termWebsite/schedule.html">Schedule a Tour</a></li>
+            <li><a href="https://avieeich.github.io/termWebsite/guides.html">Guides</a></li>
+            <li><a class="active" href="https://avieeich.github.io/termWebsite/contact.html">Contact Us</a></li>
+
+        </ul>
+    </nav>
 
     <main>
+        <div id="invitation">
         <h2>Contact Us</h2>
         <p>We'd love to hear from you! We're here to answer any questions or address any concerns you might have. Visit
             our office, give us a call, send an email, or send us a message right here! We'll get back to you as soon as
             possible.</p>
+        </div>
 
         <form method="get" action="thanks.html">
-            <label class="top">First Name* <input type="text" name="fname" required></label>
+            <label>First Name* <input type="text" name="fname" required></label>
 
-            <label class="top">Last Name* <input type="text" name="lname" required></label>
+            <label>Last Name* <input type="text" name="lname" required></label>
 
-            <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
 
-            <label class="top">Subject <input type="text" name="subject"></label>
+            <label>Subject <input type="text" name="subject"></label>
 
-            <label class="top">Message<textarea required></textarea></label>
+            <label>Message*<textarea required></textarea></label>
 
             <input type="submit" value="Send Message" class="submitBtn">
         </form>
+
+        <iframe id="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.5752678345752!2d-116.31988428438875!3d45.41790377910052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c5695ed5fae5%3A0x837cd0558ffd520c!2s1000%20S%20Main%20St%2C%20Riggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1585797944265!5m2!1sen!2sus"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
         <div id="contactInfo">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.5752678345752!2d-116.31988428438875!3d45.41790377910052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c5695ed5fae5%3A0x837cd0558ffd520c!2s1000%20S%20Main%20St%2C%20Riggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1585797944265!5m2!1sen!2sus"
-                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
-                <p>1000 S Main St., Riggins, ID</p>
-                <p>(123)-456-7890</p>
-                <p>salmonriver@email.com</p>
+            <p><span>&#10153;</span> 1000 S Main St., Riggins, ID</p>
+            <p><span>&#9743;</span> (123)-456-7890</p>
+            <p><span>&#9993;</span> salmonriver@email.com</p>
         </div>
     </main>
 
@@ -67,6 +74,7 @@
                 Learning</a>
         </p>
     </footer>
+    <script src="js/responsivenav.js"></script>
 </body>
 
 </html>

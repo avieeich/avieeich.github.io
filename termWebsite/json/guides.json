@@ -1,5 +1,5 @@
 {
-    "guides": [
+      "guides": [
       {
         "name": "Bob",
         "lastname": "Tolman",
@@ -7,7 +7,7 @@
         "experience": "25 Years",
         "email": "tolmanb@email.com",
         "biography": "Bob is an expert guide and instructor, and has been running rivers with us for over 20 years!",
-        "image": ""
+        "image": "images/guides/bob.jpg"
       },
       {
         "name": "Larry",
@@ -16,7 +16,7 @@
         "experience": "18 Years",
         "email": "clarkstonl@email.com",
         "biography": "Larry is an experienced raft guide, who navigates with ease, and makes sure rafters have a blast!",
-        "image": ""
+        "image": "images/guides/larry.jpg"
       },
       {
         "name": "Petunia",
@@ -25,7 +25,7 @@
         "experience": "10 Years",
         "email": "ruebenp@email.com",
         "biography": "Petunia is an excellent raft guide, and one of the best kayakers you've ever seen!",
-        "image": ""
+        "image": "images/guides/petunia.jpg"
       },
       {
         "name": "Archie",
@@ -34,7 +34,7 @@
         "experience": "8 Years",
         "email": "apsenwalla@email.com",
         "biography": "Archie is a fantastic river guide, born and raised in Riggins, he knows all there is to know about the river!",
-        "image": ""
+        "image": "images/guides/archie.jpg"
       },
       {
         "name": "Laura",
@@ -43,8 +43,7 @@
         "experience": "5 Years",
         "email": "carrawayl@email.com",
         "biography": "Laura may be our newest and youngest guide, but there's no mistaking her incredible rafting skill!",
-        "image": ""
+        "image": "images/guides/laura.jpg"
       }
     ]
   }
-  

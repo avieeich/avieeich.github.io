@@ -1,0 +1,181 @@
+/*typography*/
+h1,
+h2,
+h3 {
+    font-family: "fugaz one", Helvetica, sans-serif;
+}
+
+body {
+    font-family: "poppins", Helvetica, sans-serif;
+}
+
+h1,
+footer {
+    color: #17827d;
+}
+
+h1,
+h3 {
+    color: #bb0a21;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+/*Navigation*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: #050505;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    background-color: #d9dade;
+}
+
+nav a:hover {
+    color: #bb0a21;
+    border-bottom: 2px solid #bb0a21;
+    border-top: 2px solid #bb0a21;
+}
+
+.active {
+    color: #17827d;
+    font-weight: bold;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+/*Header*/
+
+header {
+    background-color: #d9dade;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header img {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #17827d;
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: right;
+}
+
+header h2 {
+    color: #bb0a21;
+    font-size: 2rem;
+    margin-top: 0;
+    text-align: right;
+}
+
+/*main*/
+main{
+    margin: 2em;
+    text-align: center;
+}
+.cards{
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+section{
+    background-color: #d9dade;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 5px;
+}
+section img{
+    border-radius: 50%;
+    width: 50%;
+    max-width: 250px;
+}
+
+
+/*footer*/
+
+footer {
+    margin-top: 5em;
+    background-color: #050505;
+    color: #17827d;
+    display: block;
+    text-align: center;
+    padding: 3em;
+    font-size: 1.1rem;
+}
+
+/*medium screen*/
+@media only screen and (min-width: 1000px) {
+
+    /*navigation*/
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    nav a:hover {
+        border-top: hidden;
+        font-weight: bold;
+    }
+    .active{
+        border-bottom: 2px solid #17827d;
+    }
+    
+}
+@media only screen and (min-width:1400px){
+    .cards{
+        display: flex;
+background-color: #d9dade;
+    padding: 2em;
+    border-radius: 5px;
+    }
+    section{
+        margin: 0;
+        border-right: 1px dashed #17827d;
+        border-radius: 0px;
+    }
+    section:nth-child(5){
+        border-right: hidden;
+    }
+    section{
+        border-right: 1px dashed #17827d;
+    }
+}

@@ -1,4 +1,4 @@
-const requestURL = 'https://avieeich.github.io/termwebsite/json/guides.json';
+const requestURL = 'json/guides.json';
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -14,9 +14,14 @@ h2.textContent = guides[i].name + ' ' + guides[i].lastname;
 card.appendChild(h2);
 document.querySelector('div.cards').appendChild(card);
 
+let image = document.createElement('img');
+image.setAttribute('src', guides[i].image);
+image.setAttribute('alt', guides[i].name + guides[i].lastname + '-' + guides[i].order)
+card.appendChild(image);
+
 let certification = document.createElement('p');
 certification.textContent = 'Certification: ' + guides[i].certification;
-card.appendChild(birthdate);
+card.appendChild(certification);
 document.querySelector('div.cards').appendChild(card);
 
 let experience = document.createElement('p');
@@ -34,10 +39,7 @@ biography.textContent = guides[i].biography;
 card.appendChild(biography);
 document.querySelector('div.cards').appendChild(card);
 
-let image = document.createElement('img');
-image.setAttribute('src', guides[i].imageurl);
-image.setAttribute('alt', guides[i].name + guides[i].lastname + '-' + guides[i].order)
-card.appendChild(image);
+
 document.querySelector('div.cards').appendChild(card);
     }
   });
