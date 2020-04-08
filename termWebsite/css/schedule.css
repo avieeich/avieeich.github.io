@@ -9,13 +9,10 @@ body {
     font-family: "poppins", Helvetica, sans-serif;
 }
 
-h1,
-footer {
+h1 {
     color: #17827d;
 }
-
-h1,
-h3 {
+h1,h3 {
     color: #bb0a21;
 }
 
@@ -57,7 +54,7 @@ nav a:hover {
 }
 
 .active {
-    color: #17827d;
+    color: #115f5b;
     font-weight: bold;
 }
 
@@ -197,7 +194,7 @@ textarea{
 footer {
     margin-top: 5em;
     background-color: #050505;
-    color: #17827d;
+    color: #22bfb7;
     display: block;
     text-align: center;
     padding: 3em;
